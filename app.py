@@ -83,6 +83,3 @@ if st.button("Predict Price", use_container_width=True):
         
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
-
-st.markdown("---")
-st.markdown("Built by an AI Assistant. Model trained on a public dataset of vehicle listings.")
